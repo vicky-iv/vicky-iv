@@ -19,18 +19,9 @@ jobs:
       - name: Pull latest posts from Medium 📰
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          max_post_count: 3
+          max_post_count: 5
           readme_path: ./README.md
           feed_list: |
             https://medium.com/feed/@vicky-ivanova
-          template: "- [$title]($url) — $date"
+          template: "- [$title]($url) — $date\n"
           date_format: "yyyy-MM-dd"
-
-      - name: Create Pull Request 🔀
-        uses: peter-evans/create-pull-request@v7
-        with:
-          commit-message: "chore(readme): update latest blog posts"
-          title: "chore(readme): update latest blog posts"
-          body: "Automated update of blog posts from Medium RSS."
-          branch: chore/update-blog-posts
-          delete-branch: true
