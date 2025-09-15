@@ -8,8 +8,7 @@
 ---
 
 ### 📝 Latest Blog Posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [JetBrains AI Assistant: Comprehensive Review](https://vicky-ivanova.medium.com/jetbrains-ai-assistant-comprehensive-review-e87602e74ea6?source=rss-af3bdcb2a46e------2) — 2025-11-17- [Mastering Software Development: Understanding DoR, DoD, and Acceptance Criteria](https://vicky-ivanova.medium.com/differences-between-dor-dod-and-ac-7849b8963e4f?source=rss-af3bdcb2a46e------2) — 2024-46-29- [Types of inheritance in Java — common interview question](https://vicky-ivanova.medium.com/types-of-inheritance-in-java-common-interview-question-fbf353565f5b?source=rss-af3bdcb2a46e------2) — 2023-51-28<!-- BLOG-POST-LIST:END -->
 
 ---
 
