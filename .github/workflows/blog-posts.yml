@@ -2,8 +2,12 @@ name: Update Latest Blog Posts
 
 on:
   schedule:
-    - cron: "0 7 * * *"   
-  workflow_dispatch: {}   
+    - cron: "0 7 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   update-posts:
@@ -18,13 +22,15 @@ jobs:
           max_post_count: 3
           readme_path: ./README.md
           feed_list: |
-             https://medium.com/feed/@vicky-ivanova
+            https://medium.com/feed/@vicky-ivanova
           template: "- [$title]($url) — $date"
           date_format: "yyyy-MM-dd"
-          # filter_tags: "testing, qa, automation"
 
-      - name: Commit & Push ✍️
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Create Pull Request 🔀
+        uses: peter-evans/create-pull-request@v7
         with:
-          commit_message: "chore(readme): update latest blog posts"
-          file_pattern: README.md
+          commit-message: "chore(readme): update latest blog posts"
+          title: "chore(readme): update latest blog posts"
+          body: "Automated update of blog posts from Medium RSS."
+          branch: chore/update-blog-posts
+          delete-branch: true
