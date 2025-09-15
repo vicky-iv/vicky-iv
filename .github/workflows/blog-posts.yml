@@ -1,0 +1,30 @@
+name: Update Latest Blog Posts
+
+on:
+  schedule:
+    - cron: "0 7 * * *"   
+  workflow_dispatch: {}   
+
+jobs:
+  update-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@v4
+
+      - name: Pull latest posts from Medium 📰
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          max_post_count: 3
+          readme_path: ./README.md
+          feed_list: |
+             https://medium.com/feed/@vicky-ivanova
+          template: "- [$title]($url) — $date"
+          date_format: "yyyy-MM-dd"
+          # filter_tags: "testing, qa, automation"
+
+      - name: Commit & Push ✍️
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(readme): update latest blog posts"
+          file_pattern: README.md
