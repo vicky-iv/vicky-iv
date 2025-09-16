@@ -1,6 +1,6 @@
 ## Hi, I'm Vicky
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=vicky-iv&show_icons=true&hide=stars&locale=en&title_color=291971&border_radius=15&icon_color=9a84ff" alt="vicky-iv" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=vicky-iv&show_icons=true&hide=stars&locale=en&title_color=291971&border_radius=15&icon_color=9a84ff&rank_icon=percentile" alt="vicky-iv" /></p>
 
 <!--
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=vicky-iv&show_icons=true&locale=en&title_color=291971&border_radius=15&hide=php&layout=compact" alt="vicky-iv" /></p>
