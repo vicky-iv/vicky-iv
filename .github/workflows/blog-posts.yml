@@ -1,27 +1,3 @@
 name: Update Latest Blog Posts
 
-on:
-  schedule:
-    - cron: "0 7 * * *"
-  workflow_dispatch: {}
 
-permissions:
-  contents: write
-  pull-requests: write
-
-jobs:
-  update-posts:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout 🛎
-        uses: actions/checkout@v4
-
-      - name: Pull latest posts from Medium 📰
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          max_post_count: 5
-          readme_path: ./README.md
-          feed_list: |
-            https://medium.com/feed/@vicky-ivanova
-          template: "- [$title]($url) — $date\n"
-          date_format: "yyyy-MM-dd"
