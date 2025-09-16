@@ -1,16 +1,18 @@
 ## Hi, I'm Vicky
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api?username=vicky-iv&show_icons=true&hide=stars&locale=en&title_color=291971&border_radius=15&icon_color=9a84ff" alt="vicky-iv" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=vicky-iv&show_icons=true&hide=stars&locale=en&title_color=291971&border_radius=15&icon_color=9a84ff" alt="vicky-iv" /></p>
 
+<!--
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=vicky-iv&show_icons=true&locale=en&title_color=291971&border_radius=15&hide=php&layout=compact" alt="vicky-iv" /></p>
+-->
+
 <br/>
 
----
+### 📝 Latest Blog Posts 
+- [JetBrains AI Assistant: Comprehensive Review](https://vicky-ivanova.medium.com/jetbrains-ai-assistant-comprehensive-review-e87602e74ea6?source=rss-af3bdcb2a46e------2) 
+- [Defining Constants in Java Interfaces — Good or Bad Practice?](https://medium.com/@vicky-ivanova/defining-constants-in-java-interfaces-good-or-bad-practice-e0fecbcd2878) 
+- [Understanding Lombok for Java in 3 minutes](https://medium.com/@vicky-ivanova/understanding-lombok-for-java-in-3-minutes-80cc56146a29) 
 
-### 📝 Latest Blog Posts
-<!-- BLOG-POST-LIST:START -->- [JetBrains AI Assistant: Comprehensive Review](https://vicky-ivanova.medium.com/jetbrains-ai-assistant-comprehensive-review-e87602e74ea6?source=rss-af3bdcb2a46e------2) — 2025-11-17- [Mastering Software Development: Understanding DoR, DoD, and Acceptance Criteria](https://vicky-ivanova.medium.com/differences-between-dor-dod-and-ac-7849b8963e4f?source=rss-af3bdcb2a46e------2) — 2024-46-29- [Types of inheritance in Java — common interview question](https://vicky-ivanova.medium.com/types-of-inheritance-in-java-common-interview-question-fbf353565f5b?source=rss-af3bdcb2a46e------2) — 2023-51-28- [What Features Can We Expect in September with JDK 21?](https://vicky-ivanova.medium.com/what-features-can-we-expect-in-september-with-jdk-21-35089b95e7b8?source=rss-af3bdcb2a46e------2) — 2023-48-19- [Transforming your Test Automation experience with Lombok: Practical Examples](https://vicky-ivanova.medium.com/transforming-your-test-automation-experience-with-lombok-practical-examples-f6dce48ca3ec?source=rss-af3bdcb2a46e------2) — 2023-01-17<!-- BLOG-POST-LIST:END -->
-
----
 
 ### 🛠️ Tech Stack
 
