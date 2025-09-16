@@ -6,13 +6,14 @@
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=vicky-iv&show_icons=true&locale=en&title_color=291971&border_radius=15&hide=php&layout=compact" alt="vicky-iv" /></p>
 -->
 
-<br/>
+---
 
 ### 📝 Latest Blog Posts 
 - [JetBrains AI Assistant: Comprehensive Review](https://vicky-ivanova.medium.com/jetbrains-ai-assistant-comprehensive-review-e87602e74ea6?source=rss-af3bdcb2a46e------2) 
 - [Defining Constants in Java Interfaces — Good or Bad Practice?](https://medium.com/@vicky-ivanova/defining-constants-in-java-interfaces-good-or-bad-practice-e0fecbcd2878) 
 - [Understanding Lombok for Java in 3 minutes](https://medium.com/@vicky-ivanova/understanding-lombok-for-java-in-3-minutes-80cc56146a29) 
 
+---
 
 ### 🛠️ Tech Stack
 
