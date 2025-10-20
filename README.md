@@ -9,7 +9,7 @@
 ---
 
 ### 📝 Latest Blog Posts 
-- [JetBrains AI Assistant: Comprehensive Review](https://vicky-ivanova.medium.com/jetbrains-ai-assistant-comprehensive-review-e87602e74ea6?source=rss-af3bdcb2a46e------2) 
+- [Seed Your Randomness: Why Random Test Data Should Be Reproducible](https://vicky-ivanova.medium.com/seed-your-randomness-why-random-test-data-should-be-reproducible-bef3c78525fb)
 - [Defining Constants in Java Interfaces — Good or Bad Practice?](https://medium.com/@vicky-ivanova/defining-constants-in-java-interfaces-good-or-bad-practice-e0fecbcd2878) 
 - [Understanding Lombok for Java in 3 minutes](https://medium.com/@vicky-ivanova/understanding-lombok-for-java-in-3-minutes-80cc56146a29) 
 
